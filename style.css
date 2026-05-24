@@ -1,0 +1,176 @@
+
+[v-cloak] {
+    display: none;
+}
+
+body {
+    background-color: #2e4a38; 
+    background-image: url('assets/bg-totoro.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+#app {
+    width: 100%;
+    padding: 20px;
+}
+
+.ghibli-title {
+  
+    font-family: 'Comic Sans MS', 'Chalkboard SE', cursive, sans-serif;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    font-size: 3rem;
+}
+
+
+
+.custom-accordion .accordion-item {
+    background-color: rgba(255, 255, 255, 0.88);
+    border: none; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    margin-bottom: 0 !important;
+    border-radius: 0 !important; 
+}
+
+
+.custom-accordion .accordion-item:first-of-type {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+
+.custom-accordion .accordion-item:last-of-type {
+    border-bottom: none; 
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.custom-accordion .accordion-button {
+    color: #fce8a1; 
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', cursive, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85); 
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+
+    min-height: 90px;
+    padding-top: 25px;   
+    padding-bottom: 25px; 
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: #fde27e;
+    box-shadow: none;
+}
+
+.custom-accordion .accordion-item:nth-child(1) .accordion-button {
+    background-image: url('assets/acc-bg1.png');
+}
+
+.custom-accordion .accordion-item:nth-child(2) .accordion-button {
+    background-image: url('assets/acc-bg2.png');
+}
+
+.custom-accordion .accordion-item:nth-child(3) .accordion-button {
+    background-image: url('assets/acc-bg3.png');
+}
+
+.custom-accordion .accordion-item:nth-child(4) .accordion-button {
+    background-image: url('assets/acc-bg4.png');
+}
+
+.custom-accordion .accordion-item:nth-child(5) .accordion-button {
+    background-image: url('assets/acc-bg5.png');
+}
+
+.custom-accordion .accordion-button::after {
+    filter: invert(1) brightness(200%);
+}
+
+.form-section {
+    background-color: #fcf9f2;
+}
+
+
+.error-text {
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+
+
+.place-card {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.place-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+
+.selected-card {
+    border-color: #198754 !important;
+    background-color: #e8f5e9;
+    box-shadow: 0 4px 10px rgba(25, 135, 84, 0.3);
+}
+
+.place-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.ghibli-btn {
+    background-color: #2c6e49;
+    border: none;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.3rem;
+    padding: 12px 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.2s ease;
+}
+
+.ghibli-btn:hover {
+    background-color: #1e4f34;
+}
+
+
+.summary-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#itineraryAccordion {
+    max-width: 900px; 
+    margin: 0 auto;   
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+}
+#itineraryAccordion {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
